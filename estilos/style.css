@@ -37,7 +37,13 @@ section#login {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  transition: width .3s, height .3s;
+  transition-timing-function: ease;
 }
+ 
+
+ 
 
 section#login div#imagem {
   background: #5f2c82 url(../imagens/pexels-marta-nogueira-589022975-19309913.jpg) no-repeat;
